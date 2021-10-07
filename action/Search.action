@@ -1,0 +1,17 @@
+# Request
+float64[] lats
+float64[] longs
+float64[] alts
+uint32[] tag_ids
+---
+# Result
+float64[] found_lats
+float64[] found_longs
+float64[] found_alts
+uint32[] found_tag_ids
+---
+# Feedback
+float64 found_lat
+float64 found_long
+float64 found_alt
+uint32 found_tag_id
